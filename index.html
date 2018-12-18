@@ -144,20 +144,74 @@
         <p>
             Hier ist es auch nicht so unterschiedlich zu Bilder / Links, ausser dem Üblichen kann man hier noch
             zusätzlich autoplay, loop, controls und preload einstellen. Autoplay lässt das Video automatisch abspielen,
-            Loop zwingt eine automatische Wiederholung auf, Controls fügt browserspezifische Steuerungselemente hinzu und
+            Loop zwingt eine automatische Wiederholung auf, Controls fügt browserspezifische Steuerungselemente hinzu
+            und
             Preload lässt das Video schon im vorhinein laden.
         </p>
         <h1>
             CSS
         </h1>
         <p>
-            CSS wendet Formatierungsregeln auf HTML-Elemente an, sie legen dadurch fest, wie der Inhalt der Elemente angezeigt werden soll. Eine CSS-Regel besteht aus zwei Teilen: einem Selektor und dessen Deklaration. Selektoren geben an, auf welches Element/Klasse/Id die Regel angewandt werden soll. Deklarationen hingegen bestimmen wie die Elemente formatiert werden sollen.
+            CSS wendet Formatierungsregeln auf HTML-Elemente an, sie legen dadurch fest, wie der Inhalt der Elemente
+            angezeigt werden soll. Eine CSS-Regel besteht aus zwei Teilen: einem Selektor und dessen Deklaration.
+            Selektoren geben an, auf welches Element/Klasse/Id die Regel angewandt werden soll. Deklarationen hingegen
+            bestimmen wie die Elemente formatiert werden sollen.
         </p>
         <h2>
             CSS ins HTML einbinden
         </h2>
         <p>
-            Man sollte immer ein externes CSS Sheet verwenden, um das Ganze besser zu unterteilen und Verwechslungen zu vermeiden.
+            Man sollte immer ein externes CSS Sheet verwenden, um das Ganze besser unterteilen zu können und um
+            Verwechslungen zu vermeiden. Um das zu machen muss man zuerst ein CSS File erstellen, am Besten speichert
+            man dieses auch im selben Ordner wie die HTML Datei ab. Jetzt kann man schon das CSS File einbinden, dass
+            macht man mit einem link Element, dieses leere Element hat drei Attribute, nämlich href, type und rel. Bei
+            href kommt einfach der absolute oder relative Pfad zur CSS Datei rein, bei type schreibt man
+            type="text/css" und zum Schluss noch rel="stylesheet", wobei die Reihenfolge eigentlich generell keine
+            Rolle spielt.
+        </p>
+        <h2>
+            Selektoren
+        </h2>
+        <p>
+            Man kann auch mehr als nur einem Selektor Regeln zuweisen, dass macht es oft leichter, wenn man ganzen Gruppen oder Klassen bestimmte Eigenschaften vergibt. Dazu gibt es mehrere Varianten, welche unterschiedliche Methoden nutzen:
+            <dl>
+                <dt>
+                    Universalselektor
+                </dt>
+                <dd>
+                    Gilt für alle Elemente im Dokument (*)
+                </dd>
+                <dt>
+                    Typselektor
+                </dt>
+                <dd>
+                    Gilt für alle übereinstimmende Elementnamen (h1, h2, h3)
+                </dd>
+                <dt>
+                    Klassenselektor
+                </dt>
+                <dd>
+                    Gilt für Elemente, deren Attribut class einen Wert hat, der mit dem hinter dem Punkt angegebenen Wert übereinstimmt, wenn noch ein Element vor dem Punkt ist, gilt es nur für diese Elemente mit dieser Klasse (.note / p.note)
+                </dd>
+                <dt>
+                    ID-Selektor
+                </dt>
+                <dd>
+                    Gilt 
+                </dd>
+                <dt>
+                    Universalselektor
+                </dt>
+                <dd>
+                    Gilt für alle Elemente im Dokument
+                </dd>
+                <dt>
+                    Universalselektor
+                </dt>
+                <dd>
+                    Gilt für alle Elemente im Dokument
+                </dd>
+            </dl>
         </p>
     </main>
 </body>
