@@ -173,7 +173,9 @@
             Selektoren
         </h2>
         <p>
-            Man kann auch mehr als nur einem Selektor Regeln zuweisen, dass macht es oft leichter, wenn man ganzen Gruppen oder Klassen bestimmte Eigenschaften vergibt. Dazu gibt es mehrere Varianten, welche unterschiedliche Methoden nutzen:
+            Man kann auch mehr als nur einem Selektor Regeln zuweisen, dass macht es oft leichter, wenn man ganzen
+            Gruppen oder Klassen bestimmte Eigenschaften vergibt. Dazu gibt es mehrere Varianten, welche
+            unterschiedliche Methoden nutzen:
             <dl>
                 <dt>
                     Universalselektor
@@ -191,13 +193,16 @@
                     Klassenselektor
                 </dt>
                 <dd>
-                    Gilt für Elemente, deren Attribut class einen Wert hat, der mit dem hinter dem Punkt angegebenen Wert übereinstimmt, wenn noch ein Element vor dem Punkt ist, gilt es nur für diese Elemente mit dieser Klasse (.note / p.note)
+                    Gilt für Elemente, deren Attribut class einen Wert hat, der mit dem hinter dem Punkt angegebenen
+                    Wert übereinstimmt, wenn noch ein Element vor dem Punkt ist, gilt es nur für diese Elemente mit
+                    dieser Klasse (.note / p.note)
                 </dd>
                 <dt>
                     ID-Selektor
                 </dt>
                 <dd>
-                    Gilt für Elemente, deren Attribut class einen Wert hat, der mit dem hinter dem Punkt angegebenen Wert übereinstimmt (#introduction)
+                    Gilt für Elemente, deren Attribut class einen Wert hat, der mit dem hinter dem Punkt angegebenen
+                    Wert übereinstimmt (#introduction)
                 </dd>
                 <dt>
                     Kindselektor
@@ -221,10 +226,110 @@
                     Allgemeiner Geschwisterselektor
                 </dt>
                 <dd>
-                    Gilt für Elemente, die dem angegebenen Element gleichgeordnet sind, auch wenn sie nicht direkt aufeinander folgen (h1~p)
+                    Gilt für Elemente, die dem angegebenen Element gleichgeordnet sind, auch wenn sie nicht direkt
+                    aufeinander folgen (h1~p)
                 </dd>
             </dl>
         </p>
+        <h2>
+            Farbe
+        </h2>
+        <p>
+            Da wir jetzt wissen wie man Regeln auf einen oder mehrere Selktoren anwendet, können wir mit einer der
+            verbreitesten Regel anfangen, nämlich mit der Eigenschaft color. Nach color: kann man entweder einen der
+            147 vordefinierten Farbnamen, RGB Werte (0-255) oder auch Hex-Codes (00-ff) verwenden. Alle bewirken im
+            Grunde das Gleiche, nur dass RGB und Hex ein wenig komplizierter aber dafür auch etwas vielfältiger ist.
+            Diese drei Arten von Werten kann man auch nach background-color: verwenden, entsprechend ist das dann die
+            Hintergrundfarbe des Textes.
+        </p>
+        <h2>
+            Text
+        </h2>
+        <p>
+            Um die Schrift individuell anpassen zu können, sind das die wichtigsten Eigenschaften für's CSS, die man
+            kennen sollte:
+            <dl>
+                <dt>
+                    font-family
+                </dt>
+                <dd>
+                    Für Anpassungen der Schriftart (unteranderem mit Google Fonts)
+                </dd>
+                <dt>
+                    font-size
+                </dt>
+                <dd>
+                    Für Anpassungen der Schriftgrösse
+                </dd>
+                <dt>
+                    font-weight
+                </dt>
+                <dd>
+                    Um den Text fett zu machen
+                </dd>
+                <dt>
+                    font-style
+                </dt>
+                <dd>
+                    Um den Text kursiv zu machen
+                </dd>
+                <dt>
+                    text-decoration
+                </dt>
+                <dd>
+                    Um den Text mit Linien oder Effekten zu versehen
+                </dd>
+                <dt>
+                    text-align
+                </dt>
+                <dd>
+                    Um den Text links-, rechts- oder mittelbündig zu machen
+                </dd>
+                <dt>
+                    :hover
+                </dt>
+                <dd>
+                    Um den Text generell anders erscheinen zu lassen wenn man mit der Maus über den Text fährt
+                </dd>
+            </dl>
+        </p>
+        <h2>
+            Bilder
+        </h2>
+        <p>
+            Ebenso bei den Bildern gibt es eine Reihe an Deklarationen, ich werde auch wieder auf die Wichtigsten
+            eingehen:
+            <dl>
+                <dt>
+                    float
+                </dt>
+                <dd>
+                    Um das Bild nach links(left) oder rechts(right) fliessen zu lassen
+                </dd>
+                <dt>
+                    width
+                </dt>
+                <dd>
+                    Um die Bildbreite anzupassen
+                </dd>
+                <dt>
+                    height
+                </dt>
+                <dd>
+                    Um die Bildhöhe anzupassen
+                </dd>
+                <dt>
+                    margin
+                </dt>
+                <dd>
+                    Um den Abstand zu anderen Elementen zu definieren
+                </dd>
+            </dl>
+            Ausserdem kann mit background-image ein Bild als Hintergrund verwendet, dieser kann dann noch mit weiteren
+            Deklarationen versehen werden, um ein besseres Erscheinungsbild zu ermöglichen. Dafür gibt es repeat,
+            fixed, scroll, position und viele Weitere.
+        </p>
+        h
     </main>
 </body>
 
