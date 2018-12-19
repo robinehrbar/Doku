@@ -1,7 +1,12 @@
 head, body {
     font-family: monospace;
-    font-size: 130%
+    font-size: 130%;
 }
-nav {
-    display: inline-block;
+
+li {
+    display: inline;
+}
+
+.titel {
+    font-size: 50px;
 }
