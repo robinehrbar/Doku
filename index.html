@@ -12,28 +12,57 @@
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li>
-                    Internet
-                </li>
-                <li>
-                    HTML
-                </li>
-                <li>
-                    CSS
-                </li>
-                <li>
-                    Praxis
-                </li>
-            </ul>
+        <nav class="navdropdown">
+
+                <div class="dropdown">
+                    <button class="dropbtn0">Start</button>
+                    <div class="dropdown-content">
+                        <a href="#01">Nach oben</a>
+                        <a href="#02">Internet</a>
+                        <a href="#03">Entwicklungsumgebung</a>
+                        <a href="#04">Tools</a>
+                    </div>
+                </div class="dropdown">
+                    <button class="dropbtn1">HTML</button>
+                    <div class="dropdown-content">
+                        <a href="#05">HTML</a>
+                        <a href="#06">Struktur</a>
+                        <a href="#07">Text</a>
+                        <a href="#08">Listen</a>
+                        <a href="#09">Links</a>
+                        <a href="#10">Bilder</a>
+                        <a href="#11">Video & Audio</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn2">CSS</button>
+                    <div class="dropdown-content">
+                        <a href="#12">CSS</a>
+                        <a href="#13">CSS ins HTML einbinden</a>
+                        <a href="#14">Selektoren</a>
+                        <a href="#15">Farbe</a>
+                        <a href="#16">Text</a>
+                        <a href="#17">Bilder</a>
+                        <a href="#18">Media-Queries</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn3">Praxis</button>
+                    <div class="dropdown-content">
+                        <a href="#19">Praxis</a>
+                        <a href="#20">Layout in HTML</a>
+                        <a href="#21">Validierung</a>
+                        <a href="#22">Testprotokoll</a>
+                    </div>
+                </div>
+
         </nav>
     </header>
     <main>
-        <h1 class="titel">
+        <h1 class="titel" id="01">
             Modul 101 - Webauftritt gestalten
         </h1>
-        <h1>
+        <h1 id="02">
             Internet
         </h1>
         <p>
@@ -44,14 +73,14 @@
             unvorstellbar. Das Internet arbeitet mit IP Adressen, um alle Geräte identifizieren und um mit denen
             kommunizieren zu können.
         </p>
-        <h1>
+        <h1 id="03">
             Entwicklungsumgebung
         </h1>
         <p>
             Bevor man mit HTML und CSS loslegen kann, muss man selbstverständlich eine entsprechende
             Entwicklungsumgebung haben, um später ungestört schreiben zu können.
         </p>
-        <h2>
+        <h2  id="04">
             Tools
         </h2>
         <p>
@@ -95,7 +124,7 @@
                 </dd>
             </dl>
         </p>
-        <h1>
+        <h1 id="05">
             HTML
         </h1>
         <p>
@@ -106,7 +135,7 @@
             sprich ohne Inhalt) oder aus einem öffnendem und einem schliessendem Tag(mit Inhalt). In den Tags selbst
             hat es teilweise Attribute, diese bestimmen gewisse Eigenschaften über ein Element.
         </p>
-        <h2>
+        <h2  id="06">
             Struktur
         </h2>
         <p>
@@ -114,7 +143,7 @@
             hat man verschiedene Formate für jeweils eine Überschrift oder bestimmten Absatz. Zusätzlich unterteilt man
             bei HTML noch in header, body und footer, um später einfacher formatieren zu können.
         </p>
-        <h2>
+        <h2  id="07">
             Text
         </h2>
         <p>
@@ -125,14 +154,14 @@
             ist, dass bei hr noch eine Linie dazwischen ist. Auch interessant ist abbr, damit kann man nämlich beim
             hovern über dem Text einen kleinen eingeblendeten Text sehen.
         </p>
-        <h2>
+        <h2 id="08">
             Listen
         </h2>
         <p>
             Grundsätzlich werden Listeneinträge mit li gemacht, diese Einträge sind dann entweder in geordneten
             Listen(ol), ungeordneten Listen(ul) oder in Defintionslisten(dl)
         </p>
-        <h2>
+        <h2 id="09">
             Links
         </h2>
         <p>
@@ -142,7 +171,7 @@
             Adresse, zum Beispiel https://www.google.com verweisen(absoluter Link). Fügt man dem a Element noch ein
             target="_blank" Attribut hinzu, wird der Link in einem neuen Tab geöffnet.
         </p>
-        <h2>
+        <h2 id="10">
             Bilder
         </h2>
         <p>
@@ -152,7 +181,7 @@
             width kann Höhe und Breite des Bildes in Pixel bestimmt werden. Am besten eignen sich png, jpg oder auch
             gif als Bildformate.
         </p>
-        <h2>
+        <h2 id="11">
             Video & Audio
         </h2>
         <p>
@@ -162,7 +191,7 @@
             und
             Preload lässt das Video schon im vorhinein laden.
         </p>
-        <h1>
+        <h1 id="12">
             CSS
         </h1>
         <p>
@@ -171,7 +200,7 @@
             Selektoren geben an, auf welches Element/Klasse/Id die Regel angewandt werden soll. Deklarationen hingegen
             bestimmen wie die Elemente formatiert werden sollen.
         </p>
-        <h2>
+        <h2 id="13">
             CSS ins HTML einbinden
         </h2>
         <p>
@@ -183,7 +212,7 @@
             type="text/css" und zum Schluss noch rel="stylesheet", wobei die Reihenfolge eigentlich generell keine
             Rolle spielt.
         </p>
-        <h2>
+        <h2 id="14">
             Selektoren
         </h2>
         <p>
@@ -245,7 +274,7 @@
                 </dd>
             </dl>
         </p>
-        <h2>
+        <h2 id="15">
             Farbe
         </h2>
         <p>
@@ -256,7 +285,7 @@
             Diese drei Arten von Werten kann man auch nach background-color: verwenden, entsprechend ist das dann die
             Hintergrundfarbe des Textes.
         </p>
-        <h2>
+        <h2 id="16">
             Text
         </h2>
         <p>
@@ -307,7 +336,7 @@
                 </dd>
             </dl>
         </p>
-        <h2>
+        <h2 id="17">
             Bilder
         </h2>
         <p>
@@ -343,7 +372,7 @@
             Deklarationen versehen werden, um ein besseres Erscheinungsbild zu ermöglichen. Dafür gibt es repeat,
             fixed, scroll, position und viele Weitere.
         </p>
-        <h2>
+        <h2 id="18">
             Media Queries
         </h2>
         <p>
@@ -352,7 +381,7 @@
             damit Deklarationen bestimmen, die nur gelten sollen sobald das Fenster eine gewisse Breite überschritten
             hat, in dem Fall wäre dass, wenn der Bildschirm maximal 768 Pixel breit ist.
         </p>
-        <h1>
+        <h1 id="19">
             Praxis
         </h1>
         <p>
@@ -363,7 +392,7 @@
             gomockingbird. Ausserdem sollte man die Struktur der Website in einem Sitemap festhalten, dort würde ich
             euch die gloomaps Website empfehlen.
         </p>
-        <h2>
+        <h2 id="20">
             Layout in HTML
         </h2>
         <p>
@@ -377,7 +406,7 @@
             andererseits kann man ihnen ganz einfach und ohne Probleme Klassen zuweisen um später im CSS die
             Formatierung der Website um Einiges zu erleichtern.
         </p>
-        <h2>
+        <h2 id="21">
             Validierung
         </h2>
         <p>
@@ -386,7 +415,7 @@
             des Codes identifiziert werden. Das beheben dieser, führt zu reduzierter Anzahl an Fehlern in sämtlichen
             Browsern und schliesst jede Website sauber ab.
         </p>
-        <h2>
+        <h2 id="22">
             Testprotokoll
         </h2>
         <p>
