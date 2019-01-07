@@ -1,9 +1,11 @@
+/* Noch Design, Footer und Media Queries */
+
 main {
     font-family: monospace;
     font-size: 130%;
 }
 
-* {
+body {
     background: orange;
 }
 
@@ -50,8 +52,6 @@ position: relative;
 display: inline-block;
 }
 
-
-
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
 display: none;
@@ -71,7 +71,9 @@ display: block;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -173,3 +175,4 @@ nav {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+}
