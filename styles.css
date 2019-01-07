@@ -1,4 +1,4 @@
-/* Noch Design, Footer und Media Queries */
+/* Media Queries */ 
 
 main {
     font-family: monospace;
@@ -15,12 +15,17 @@ header {
     right: 0;
 }
 
-footer {
-    position: fixed;
-    display: flex;
+#footerid {
+    background: rgb(114, 114, 114);
+    color: black;
+    font-weight: bold;
+    width: 100%;
+    left: 0;
+    bottom: 0;
     text-align: center;
-    background: black;
-    color: orange;
+    position: fixed;
+    margin-bottom: 0;
+    padding: 10px 0;
 }
 
 h1, h2 {
@@ -80,7 +85,8 @@ display: block;
     display: block;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
+/* Change the background color of the dropdown button,
+when the dropdown content is shown */
 .dropdown:hover .dropbtn0 {
     background-color: rgb(170, 0, 0);
 }
@@ -126,7 +132,7 @@ display: block;
     padding: 16px;
     font-size: 16px;
     border: none;
-}
+} 
 
  /* Dropdown Button 3 */
 .dropbtn3 {
