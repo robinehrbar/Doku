@@ -1,4 +1,4 @@
-/* Media Queries */ 
+/* Media Queries */  
 
 main {
     font-family: monospace;
@@ -181,4 +181,43 @@ nav {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .dropdown {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 2px 10px 2px 2px;
+        text-align: left;
+    }
+
+    body {
+        font-size: 60%;
+    }
+
+    .titel {
+        font-size: 30px;
+    }
+
+    .dropbtn0 {
+        font-size: 10px;
+        padding: 7px 4px;
+    }
+
+    .dropbtn1 {
+        font-size: 10px;
+        padding: 7px 4px;
+    }
+
+    .dropbtn2 {
+        font-size: 10px;
+        padding: 7px 4px;
+    }
+
+    .dropbtn3 {
+        font-size: 10px;
+        padding: 7px 4px;
+    }
 }
